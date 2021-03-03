@@ -1,6 +1,6 @@
 # dotnetproject-team7_dotnetproject
 
-## Deployment to Netlify
+## Deployment to Facebook
 [https://peaceful-visvesvaraya-addbcc.netlify.app/](https://peaceful-visvesvaraya-addbcc.netlify.app/)
 
 ### App Description
@@ -32,7 +32,13 @@ https://www.themoviedb.org/documentation/api
 ##### Backend
 
 -   Authentication (login, sign up etc.)
--   Rating capability
+-   Create messages / posting (login required) with media sharing (????? how to create a sharing for video or image file) and upload
+-   Messages (???) / postings (list and detail pages)
+-   Commenting on messages / postings
+-   Following users and/or messages / postings  ( click on the posted message to open a user page to follow the user)
+-   Liking system
+
+
 -   Database
     -   Static list of series / shows to populate page
     -   CRUD capability (update: add ratings)
@@ -43,6 +49,8 @@ https://www.themoviedb.org/documentation/api
 -   Users can find titles from a selection of K dramas
 
 #### Non-functional
+
+2) search or model box or something to pop up users to follow)
 
 ##### Backend
 
