@@ -31,6 +31,17 @@ https://www.themoviedb.org/documentation/api
 
 ##### Backend
 
+-   DyanmoDB +  Lambda function + EndPoints
+-   Congito for signup and login email confirmation
+-   CRUD capability 
+-   Database design : 
+    - tables 
+        - User: (username/email/password)
+        - Post: (description, the user)
+        - Comments: (description, the user, the post)
+
+##### Frontend
+
 -   Authentication (login, sign up etc.)
 -   Create messages / posting (login required) with media sharing (????? how to create a sharing for video or image file) and upload
 -   Messages (???) / postings (list and detail pages)
@@ -38,36 +49,25 @@ https://www.themoviedb.org/documentation/api
 -   Following users and/or messages / postings  ( click on the posted message to open a user page to follow the user)
 -   Liking system
 
-
--   Database
-    -   Static list of series / shows to populate page
-    -   CRUD capability (update: add ratings)
-
-##### Frontend
-
--   K drama fans can sign up on the site and submit user ratings
--   Users can find titles from a selection of K dramas
-
 #### Non-functional
-
-2) search or model box or something to pop up users to follow)
 
 ##### Backend
 
--   Query _The Movie DB API_ as dynamic data source
--   Review capability
--   Alter ratings / reviews / favourites
+-   Hashed password for signup and login ( should be funtional ??? )
+-   JWT Token for each communication except login/sign ( should be funtional ??? )
+    - tables 
+        - User: (the follow users)
+        - Post: (image or image link, totalLikes, timestamp)
+        - Comments: (timestamp)
 
 ##### Frontend
-
--   Review input form
--   Add to favourites (heart button)
 
 ### Feature list
 
 #### Must have
 
 -   Sign up / login forms with validation
+- 
 -   Home page with all dramas (popular, featured director, recent)
 -   Featured view once they click on one show
 -   Rating capability (default is not yet rated)
